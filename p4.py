@@ -1,6 +1,6 @@
 # Problem 4 - 20/12/2020
 # Brute-Force solution
-# HackerRank 3/4 (TC3)
+# HackerRank 3/4 Cases (TC3)
 #!/bin/python3
 
 import sys
