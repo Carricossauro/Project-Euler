@@ -21,4 +21,4 @@ os.system("git push origin master")
 
 ini["added"] = n
 with open(pathDirectory + "/numberFiles.json") as jsonFile:
-	json.dump(ini, jsonfile)
+	json.dump(ini, jsonFile)
