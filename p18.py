@@ -13,9 +13,10 @@ def solve(triangle,line,i,N):
         r = triangle[line][i]
         es = solve(triangle,line+1,i,N)
         dr = solve(triangle,line+1,i+1,N)
-        r+= (es > dr) * es + (dr >= es) * dr
+	cond = es > dr
+        r+= cond * es + (not cond) * dr
     return r
-    
+
 for _ in range(int(input())):
     trian = []
     for n in range(int(input())):
